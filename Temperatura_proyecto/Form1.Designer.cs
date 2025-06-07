@@ -36,8 +36,8 @@
             this.BtnMostrar = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.txtPromedio = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.txtPromedio = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.ZoneNum)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ZoneNum2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -60,6 +60,7 @@
             this.label1.Size = new System.Drawing.Size(182, 16);
             this.label1.TabIndex = 1;
             this.label1.Text = "Cuantas zonas desea ver";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -114,13 +115,6 @@
             this.panel1.Size = new System.Drawing.Size(1058, 309);
             this.panel1.TabIndex = 8;
             // 
-            // txtPromedio
-            // 
-            this.txtPromedio.Location = new System.Drawing.Point(758, 117);
-            this.txtPromedio.Name = "txtPromedio";
-            this.txtPromedio.Size = new System.Drawing.Size(159, 20);
-            this.txtPromedio.TabIndex = 0;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -129,6 +123,13 @@
             this.label3.Size = new System.Drawing.Size(125, 13);
             this.label3.TabIndex = 1;
             this.label3.Text = "Promedio de temperatura";
+            // 
+            // txtPromedio
+            // 
+            this.txtPromedio.Location = new System.Drawing.Point(758, 117);
+            this.txtPromedio.Name = "txtPromedio";
+            this.txtPromedio.Size = new System.Drawing.Size(159, 20);
+            this.txtPromedio.TabIndex = 0;
             // 
             // Form1
             // 
